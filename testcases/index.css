@@ -1,0 +1,8 @@
+#resultTable
+{
+	border-collapse: collapse;
+}
+#resultTable>tbody>tr>td
+{
+	border: solid 1px black;
+}

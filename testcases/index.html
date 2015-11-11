@@ -10,23 +10,24 @@
 	<body>
 		<p>Here will follow a number of test cases to verify function of Jsdate.</p>
 		
-		<form>
 			<p>When</p>
-			<input type="text" name="date"> (YYYY-MM-DD)<br>
-			<input type="text" name="time"> (HH:MM:SS)<br>
+			<input type="text" id="inputDate" name="date" value="2015-10-05"> (YYYY-MM-DD)<br>
+			<input type="text" id="inputTime" name="time" value="01:30"> (HH:MM:SS)<br>
 			<p>Dutydate</p>
-			<input type="text" name="dutydate"> (YYYY-MM-DD)<br>
-		</form>
+			<input type="text" id="inputDutyDate" name="dutydate" value="2015-10-04"> (YYYY-MM-DD)<br>
+			<button onclick="starttest(); return false;">Run test</button>
 		<table id="resultTable">
 			<thead>
 				<tr>
 					<th>Function</th>
 					<th>Argument</th>
 					<th>Result</th>
+					<th>Status</th>
+					<th>Description</th>
 				</tr>
 			</thead>
 			<tbody></tbody>
 		</table>
 	</body>
-	<script language="javascript">starttest();</script>
+
 </html>
